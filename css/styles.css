@@ -9,6 +9,11 @@ ul {
 .logo {
   height: 160px;
   width: 10em;
+  margin-left: 1.2em;
+}
+
+.sidebar {
+  padding-left: 0.5em;
 }
 
 .link-label {
@@ -17,13 +22,10 @@ ul {
   background-repeat: no-repeat;
   background-size: 100% 1px;
   color: #54595d;
-  margin: 0.5em 0 0 0.666667em;
+  margin: 0.5em 0 0 1.6em;
   font-size: 0.75em;
   padding: 0.25em 0;
-}
-
-.link-label-text {
-
+  width: 80%;
 }
 
 .nav-links {

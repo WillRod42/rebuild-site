@@ -2,12 +2,42 @@ body {
   font-family: sans-serif;
 }
 
+ul {
+  padding: 0;
+}
+
 .logo {
   height: 160px;
   width: 10em;
 }
 
+.link-label {
+  background-image: linear-gradient(to right,rgba(200,204,209,0) 0,#c8ccd1 33%,#c8ccd1 66%,rgba(200,204,209,0) 100%);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  color: #54595d;
+  margin: 0.5em 0 0 0.666667em;
+  font-size: 0.75em;
+  padding: 0.25em 0;
+}
+
+.link-label-text {
+
+}
+
 .nav-links {
   list-style-type: none;
-  color: black;
+  padding-top: 0.3em;
+  margin: 0 0.6em 0 1.2em;
+}
+
+.nav-links li {
+  font-size: 0.75em;
+  line-height: 1.125em;
+  padding: 0.25em 0;
+}
+
+.nav-links a {
+  color: #0645ad;
 }

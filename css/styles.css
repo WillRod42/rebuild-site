@@ -28,18 +28,38 @@ ul {
   width: 80%;
 }
 
-.nav-links {
+.links {
   list-style-type: none;
+  margin-left: 0.75em;
+  margin-bottom: 0.1em;
+  padding-top: 0.5em;
+  line-height: 1.666667;
+}
+
+.nav-links {
   padding-top: 0.3em;
   margin: 0 0.6em 0 1.2em;
 }
 
+.top-links {
+  text-align: right;
+  margin-right: 1em;
+}
+
+.top-links li {
+  display: inline;
+  margin-left: 0.75em;
+}
+
 .nav-links li {
-  font-size: 0.75em;
   line-height: 1.125em;
   padding: 0.25em 0;
 }
 
-.nav-links a {
+li {
+  font-size: 0.75em;
+}
+
+a {
   color: #0645ad;
 }

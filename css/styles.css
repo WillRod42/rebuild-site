@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+}
+
+.logo {
+  height: 160px;
+  width: 10em;
+}
+
+.nav-links {
+  list-style-type: none;
+  color: black;
+}
